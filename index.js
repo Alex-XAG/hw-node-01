@@ -32,16 +32,3 @@ program.parse();
 
 const options = program.opts();
 invokeAction(options);
-
-// invokeAction({ action: "list" });
-// invokeAction({ action: "get", id: "qdggE76Jtbfd9eWJHrssH" });
-// invokeAction({
-//   action: "add",
-//   name: "Alex XAG",
-//   email: "alex.xag1987@gmail.com",
-//   phone: "(038) 098-50-95",
-// });
-// invokeAction({
-//   action: "remove",
-//   id: "qjSFBpBN0iuuQOX5g-P0q",
-// });
